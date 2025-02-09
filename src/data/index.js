@@ -109,13 +109,27 @@ export const projects = [
 export const allprojects = [
   {
     id: 1,
+    button: "ConferioCal",
+    des: "An Scheduling and Team management webapp where user's have production level features.",
+    img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1739105478/Kanishkk/vxacltcil4dbovtayfpn.png",
+    link: "",
+  },
+  {
+    id: 2,
+    button: "RE_Dash",
+    des: "An Real Estate dashboard where user's can manage their properties and features like user based layout & more ",
+    img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1739098246/Kanishkk/m8kw2ovcqnm3u5a90ecq.png",
+    link: "",
+  },
+  {
+    id: 3,
     button: "BVMX",
     des: "An Ecommerce website for a fashion brand with all the Features like payment gateway and credits system in it. ",
     img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1725953716/c4bvwai6l5rrbkoorobk.jpg",
     link: "",
   },
   {
-    id: 2,
+    id: 4,
     button: "BVM_Dash",
     des: "An admin dashboard for BVM store Owner. Where he can access every single actions for his ecommerce web-store. ",
     img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726048230/Kanishkk/jmkkydhhr7dxfuqafcb1.jpg",
@@ -123,7 +137,7 @@ export const allprojects = [
 
   },
   {
-    id: 3,
+    id: 5,
     button: "ChatHive ",
     des: "A perfect platform to stay connected with your loved ones.",
     img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1725954315/b26z6jcnvimjt5raegk0.png",
@@ -131,7 +145,7 @@ export const allprojects = [
 
   },
   {
-    id: 4,
+    id: 5,
     button: "Conferio",
     des: "A video-conferencing website which gives you an perfect blend of modern & professional experience and  Seamlessly connect with colleagues and friends.",
     img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726055970/Kanishkk/scl4wvzyfl5omzjt66q8.jpg",
@@ -139,7 +153,7 @@ export const allprojects = [
    
   },
   {
-    id: 4,
+    id: 6,
     button: "TRS",
     des: "Timeless Resale Store is a full-stack webapp, where users can sell their used and new products just like OLX, it's responsive yet modern and cool. ",
     img: "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726048850/Kanishkk/iwyad26wkcqus4hngein.jpg",

@@ -9,7 +9,7 @@ import Squares from './ui/squares';
 
 const Footer = () => {
   return (
-    <footer className="w-full pt-20 pb-10" id="contact">
+    <footer id="contact" className="w-full pt-20 pb-10" >
       {/* background grid */}
 
       <div className="lg:flex md:flex grid gap-4 ">

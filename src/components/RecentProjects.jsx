@@ -17,6 +17,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
+          
               title={item.link}
               href={item.link}
             >

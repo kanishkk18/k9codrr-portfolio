@@ -33,94 +33,94 @@ export default function HeroParallaxDemo() {
 export const products = [
   {
     title: "Conferio",
-    link: "https://conferio-calls.vercel.app/",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726055970/Kanishkk/scl4wvzyfl5omzjt66q8.jpg",
   },
   {
     title: "Conferio",
-    link: "https://conferio-calls.vercel.app/",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726055971/Kanishkk/dxqzn07qbnlioszkq5g7.jpg",
   },
   {
     title: "TRS",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726048850/Kanishkk/iwyad26wkcqus4hngein.jpg",
   },
 
   {
     title: "TRS",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726048220/Kanishkk/vg7ygqczb5zcekvgsvvk.jpg",
   },
   {
     title: "BVMX",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726053265/Kanishkk/sfnnfuouahitmu6blkuk.jpg",
   },
   {
     title: "BVMX",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726053266/Kanishkk/epcemtonsspiyx0kvepp.jpg",
   },
 
   {
     title: "BVM_Dash",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726048230/Kanishkk/jmkkydhhr7dxfuqafcb1.jpg",
   },
   {
     title: "BVM_Dash",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726053971/Kanishkk/xbx2yystbejm0uwbzphz.jpg",
   },
   {
     title: "ChatHive",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1725954315/b26z6jcnvimjt5raegk0.png",
   },
   {
     title: "ChatHive",
-    link: "https://smartbridgetech.com",
+    link: "/",
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
   },
   {
     title: "Instagram",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1725703772/zgolgrx7q0roi5jrgkb8.jpg",
   },
 
   {
     title: "Instagram",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726660841/sbqsjovldxd1av37anza.jpg",
   },
   {
     title: "Netflix-clone",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726505511/vpnutoqstrmvvh181isq.jpg",
   },
   {
     title: "Spotless-drycleaners",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726505050/n57peee13cen0uqsayyp.jpg",
   },
   {
     title: "Spotless-drycleaners",
-    link: "",
+    link: "/",
     thumbnail:
       "https://res.cloudinary.com/kanishkkcloud18/image/upload/v1726505051/l2nnzxzo0wwayhcdl4ep.jpg",
   },

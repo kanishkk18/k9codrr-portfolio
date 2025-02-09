@@ -1,8 +1,17 @@
-import React from "react";
+
 import  AnimatedTooltip  from "./ui/animated-tooltip";
 import {people} from "@/data/index";
+import { getCalApi } from "@calcom/embed-react";
+import { useEffect } from "react";
 
 const WebsitePromoCard = () => {
+  useEffect(()=>{
+	  (async function () {
+		const cal = await getCalApi({"namespace":"15min"});
+		cal("ui", {"hideEventTypeDetails":false,"layout":"month_view"});
+	  })();
+	}, [])
+
   return (
     <div className="bg-[#0A0A0A] h-[65vh] rounded-[20px] mt-10 mb-10 shadow-lg hidden md:flex lg:flex items-center justify-between">
       {/* Left section with text */}
@@ -13,10 +22,11 @@ const WebsitePromoCard = () => {
         <p className="text-gray-300 text-lg mb-6">
          Are you ready to scale the unscalable? Talk with <br /> us to get a tailored approach to your business! <span className="text-yellow-400">✨</span>
         </p>
-        <button className="text-sm text-white font-medium relative w-[30%] bg-black  dark:text-white px-4 py-2 rounded-full">
-          <a href="https://wa.me/message/HEAVZO64MZNRP1">
-            <span>DM Me</span>
-          </a>
+        <button  data-cal-namespace="15min"
+	  data-cal-link="kanishkkb18/15min"
+    
+	  data-cal-config='{"layout":"month_view"}' className="text-sm text-white font-medium relative w-[30%] bg-black  dark:text-white px-4 py-2 rounded-full">
+          Schedule a Call
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
         </button>
         <div className="flex flex-row items-center mt-10 justify-start w-full">

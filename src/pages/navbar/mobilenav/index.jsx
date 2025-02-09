@@ -92,7 +92,7 @@ const Navbar = () => {
               <Link to="#about" className="text-black block px-3 py-2 rounded-md text-base font-bold">
                 About
               </Link>
-              <Link to="#contact" className="text-black block px-3 py-2 rounded-md text-base font-bold">
+              <Link to="/contact" className="text-black block px-3 py-2 rounded-md text-base font-bold">
                 Contact
               </Link>
             </div>

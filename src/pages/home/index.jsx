@@ -27,7 +27,9 @@ export default function BackgroundBeamsDemo() {
         <Timecard/>
         <Approach/>
         <PromoCard/>
+        <div id="contact">
         <Footer/>
+        </div>
       </div>
     </main>
     )

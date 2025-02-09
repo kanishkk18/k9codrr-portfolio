@@ -29,7 +29,7 @@ const reviews = [
   {
     name: "Nitin_gupta",
     username: "Head of Product",
-    body: "The web app [Your Name] delivered is secure, scalable, and user-friendly. They understood our requirements perfectly and executed them flawlessly.",
+    body: "The web app Kanishkk delivered is secure, scalable, and user-friendly. They understood our requirements perfectly and executed them flawlessly.",
     img: "https://i.pinimg.com/564x/87/b8/bb/87b8bba1ff8923ded0a0e38cf8f467c0.jpg",
   },
   {
